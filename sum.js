@@ -1,3 +1,5 @@
+var x = "Hello World";
+
 function calculateSum(a ,b){
     const sum = a + b;
 
@@ -5,4 +7,7 @@ function calculateSum(a ,b){
     
 }
 
-module.exports = calculateSum;
+module.exports = {
+    x : x,
+    calculateSum : calculateSum
+};
