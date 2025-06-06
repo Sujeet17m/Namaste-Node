@@ -1,5 +1,5 @@
 require('./xyz');// one module into another
-const obj = require('./sum');
+const { calculateSum , x} = require('./sum');
 
 
 
@@ -7,8 +7,8 @@ var name = "Namaste node js";
 var a = 10;
 var b = 20;
 
-obj.calculateSum(a,b);
-console.log(obj.x);
+calculateSum(a,b);
+console.log(x);
 
 
 console.log(globalThis === global);
