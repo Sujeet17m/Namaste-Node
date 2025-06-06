@@ -8,6 +8,6 @@ function calculateSum(a ,b){
 }
 
 module.exports = {
-    x : x,
-    calculateSum : calculateSum
+    x ,
+    calculateSum
 };
