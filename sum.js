@@ -1,13 +1,15 @@
+console.log("sum module executed");
+
 var x = "Hello World";
 
-function calculateSum(a ,b){
+export function calculateSum(a ,b){
     const sum = a + b;
 
     console.log(sum);
     
 }
 
-module.exports = {
-    x ,
-    calculateSum
-};
+// module.exports = {
+//     x ,
+//     calculateSum
+// };
